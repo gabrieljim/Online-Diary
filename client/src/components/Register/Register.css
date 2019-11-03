@@ -1,0 +1,54 @@
+.register-container {
+  width: 100%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+#register-form {
+  margin: auto;
+}
+
+.register-container input {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 17px;
+  outline: none;
+  transition: all 0.2s;
+  color: var(--text-color);
+}
+
+.register-container input:focus {
+  transform: scale(1.1);
+}
+
+.register-container input:not([type="submit"]) {
+  background-color: transparent;
+  border: none;
+  padding: 13px;
+  border-bottom: 1px solid var(--text-color);
+}
+
+.register-container input[type="submit"] {
+  border-radius: 20px;
+  padding: 15px;
+  margin-top: 30px;
+  font-size: 17px;
+  border: none;
+  box-shadow: 0 0 3px var(--text-color);
+  background-color: transparent;
+  color: var(--text-color);
+}
+
+.register-container input[type="submit"]:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+#register-prompt {
+  margin-top: 40px;
+}
+
+#register-link {
+  color: var(--stronger-second-color);
+}

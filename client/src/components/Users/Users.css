@@ -1,0 +1,33 @@
+#users-container {
+  margin: 40px;
+}
+
+.users-title {
+  margin-bottom: 20px;
+}
+
+#users-list {
+  list-style: none;
+  width: 50%;
+  margin: auto;
+  border: 1px solid var(--text-color);
+  box-shadow: inset 0 0 5px var(--text-color);
+  max-height: 90vh;
+  overflow-y: scroll;
+}
+
+.user {
+  padding: 10px;
+  transition: all 0.2s;
+}
+
+.user:hover {
+  background-color: var(--second-color);
+}
+
+.user a {
+  color: var(--text-color);
+  display: block;
+  width: 100%;
+  height: 100%;
+}

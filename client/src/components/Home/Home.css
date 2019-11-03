@@ -1,0 +1,44 @@
+.home {
+  width: 100%;
+  height: 70vh;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.home h1 {
+  font-size: 40px;
+}
+
+.info button {
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 30px;
+  font-size: 30px;
+  border: none;
+  box-shadow: 0 0 3px var(--text-color);
+  background-color: transparent;
+  color: var(--text-color);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.info button:hover {
+  transform: scale(1.1);
+}
+
+.diary {
+  animation: spin 2s;
+  fill: var(--text-color);
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}

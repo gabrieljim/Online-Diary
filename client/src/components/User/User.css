@@ -1,0 +1,18 @@
+.foreign-posts {
+  margin-top: 40px;
+  padding: 20px 150px;
+}
+
+.foreign-list {
+  margin-top: 20px;
+  list-style: none;
+}
+
+.foreign-post {
+  text-align: left;
+  margin-top: 40px;
+}
+
+.foreign-post p {
+  margin-top: 20px;
+}

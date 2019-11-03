@@ -1,0 +1,26 @@
+#registering-cover {
+  position: absolute;
+  top: 25vh;
+  left: 25vw;
+  width: 50%;
+  height: 50vh;
+  background-color: var(--bg-color);
+  box-shadow: 0 0 80px var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+}
+
+#registering {
+  animation: pulse 1s infinite alternate-reverse;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}

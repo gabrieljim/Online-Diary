@@ -1,0 +1,73 @@
+.login-container {
+  width: 100%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+#login-form {
+  margin: auto;
+}
+
+.flash-message {
+  margin: auto;
+  cursor: pointer;
+  margin-top: 30px;
+  width: 50%;
+  padding: 16px;
+  border-radius: 10px;
+}
+
+.correct {
+  border: 3px solid #4bb543;
+  background-color: #b1e2ae;
+}
+
+.error {
+  border: 3px solid #d63031;
+  background-color: #eb9c9c;
+}
+
+.login-container input {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 17px;
+  outline: none;
+  transition: all 0.2s;
+  color: var(--text-color);
+}
+
+.login-container input:focus {
+  transform: scale(1.1);
+}
+
+.login-container input:not([type="submit"]) {
+  background-color: transparent;
+  border: none;
+  padding: 13px;
+  border-bottom: 1px solid var(--text-color);
+}
+
+.login-container input[type="submit"] {
+  border-radius: 20px;
+  padding: 15px;
+  margin-top: 30px;
+  font-size: 17px;
+  border: none;
+  box-shadow: 0 0 3px var(--text-color);
+  background-color: transparent;
+  color: var(--text-color);
+}
+
+.login-container input[type="submit"]:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+#register-prompt {
+  margin-top: 40px;
+}
+
+#register-link {
+  color: var(--stronger-second-color);
+}

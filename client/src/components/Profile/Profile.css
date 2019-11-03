@@ -1,0 +1,10 @@
+#profile-container {
+  margin-top: 40px;
+}
+
+#profile-container * {
+  margin: 20px;
+}
+#profile-container a {
+  color: var(--stronger-second-color);
+}
